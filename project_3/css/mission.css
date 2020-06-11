@@ -1,0 +1,178 @@
+@import "header.css";
+@import "footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg1 {
+    height: 80vh;
+    background-color: #45505f;
+}
+.h80 {
+    height: 65vh;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+}
+
+ /* */
+ .text {
+    color: #6870b5;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+ }
+
+ /* -- */
+ .bg3 {
+     background-color: #9ed9d8;
+ }
+ .worldwide {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 1.2;
+ }
+
+ /* --- */
+ .bg4 {
+    background-color: #f3f3f3;
+ }
+ .bg4 p{
+    font-size: 18px;
+ }
+
+  /* */
+  .bg5 h2{
+    font-size: 37px;
+    font-weight: 400;
+    color: #70a4b4;
+  }
+  .bg5 p {
+    font-size: 20px;
+  }
+
+  
+  /* */
+  .bg8 {
+      background-color: wheat;
+
+  }
+  .bg8 p {
+    color: #6870b5;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  .page-btn {
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .blue-btn {
+    background: #9ed9d8;
+  }
+  .blue-btn:hover {
+    background-color: #6870b5;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+
+  /* */
+  .bg9 p {
+    color: #70a4b4;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  .red-btn {
+    background: #db765a;
+  }
+  .red-btn:hover {
+    background-color: #70a4b4;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+
+/* -------------------------------------- */
+@media (min-width: 320px)  and (max-width: 576px) {
+  .header-logo img{
+      width: 200px !important;
+  }
+  .bg1 {
+    height: 300px;
+  }
+  .h200 {
+    height: 150px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  .bg2 p{
+    font-size: 24px;
+  }
+  .bg3 img{
+    width: 250px;
+    height: 190px;
+
+  }
+  .bg3 p {
+    font-size: 20px;
+    text-align: center;
+    padding-left:0 !important;
+    margin-top: 20px;
+  }
+  .mb20{
+    margin-bottom: 20px;
+  }
+  .bg5 h2 {
+    font-size: 18px;
+  }
+  .bg5 p {
+    font-size: 17px;
+  }
+  .bg6 p {
+    font-size: 28px;
+    text-align: center;
+  }
+  .bg7 p {
+    font-size: 18px;
+  }
+  .bg8 p {
+    font-size: 28px;
+  }
+  .bg8 {
+    padding: 40px 0;
+  }
+  .dcol {
+    flex-direction: column;
+  }
+  .blue-btn,
+  .red-btn {
+    padding: 10px 20px !important;
+    font-size: 18px;
+  }
+  .bg9 p {
+    font-size: 28px;
+  }
+  
+}
+
+/* -------------------------------------- */
+@media (min-width: 576px)  and (max-width: 768px) { 
+  .bg5 h2{
+    font-size: 30px !important;
+  }
+}
+
+
